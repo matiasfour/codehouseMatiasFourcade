@@ -1,0 +1,44 @@
+.navbar {
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(58, 58, 241);
+    margin: 0;
+
+  
+}
+
+.logo {
+    color: white;
+}
+
+.navbar nav {
+   width: 500px;
+   display: flex;
+
+   border: 1px solid white
+
+
+}
+
+.navbar nav ul  {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar nav ul li {
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+
+}
+
+.navbar nav ul li:hover {
+    background-color: rgb(6, 6, 146);
+    padding: 15px
+}
